@@ -1,0 +1,70 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\yuvals\Desktop\Study\Scala\streams\src\main\scala\streams\Solver.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(streams.Solver)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(streams.Solver)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\yuvals\Desktop\Study\Scala\streams\src\main\scala\streams\Solver.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\yuvals\Desktop\Study\Scala\streams\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 78e4e9b2 for Scala compiler version 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\yuvals\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\yuvals\Desktop\Study\Scala\streams\target\scala-2.13\classes;C:\Users\yuvals\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalacheck\scalacheck_2.13\1.14.0\scalacheck_2.13-1.14.0.jar;C:\Users\yuvals\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.664374 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from streams.Solver...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(streams.Solver)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding streams.Bloxorz.InfiniteLevel by streams.Solver[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding streams.Bloxorz.Level by streams.Solver[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding streams.Bloxorz.Level0 by streams.Bloxorz.Level[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding streams.Bloxorz.Level1 by streams.Bloxorz.Level[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(streams.Bloxorz.Level1, streams.Bloxorz.Level0, streams.Bloxorz.Level, streams.Bloxorz.InfiniteLevel, streams.Solver)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of streams.Bloxorz.Level. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of streams.Bloxorz. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of streams.Bloxorz.InfiniteLevel. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(streams.Solver,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(notifyAll,[Default]))) invalidates 5 classes due to The streams.Solver has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(notifyAll,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(streams.Bloxorz.Level1, streams.Bloxorz.Level0, streams.Bloxorz.Level, streams.Bloxorz.InfiniteLevel, streams.Solver)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(streams.Bloxorz.Level1, streams.Bloxorz.Level0, streams.Bloxorz.Level, streams.Bloxorz.InfiniteLevel)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(streams.Bloxorz.Level1, streams.Bloxorz.Level0, streams.Bloxorz.Level, streams.Bloxorz.InfiniteLevel)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set(streams.Bloxorz.Level1, streams.Bloxorz.Level0, streams.Bloxorz.Level, streams.Bloxorz.InfiniteLevel)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\yuvals\Desktop\Study\Scala\streams\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4f453ba9 for Scala compiler version 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\yuvals\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\yuvals\Desktop\Study\Scala\streams\target\scala-2.13\classes;C:\Users\yuvals\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalacheck\scalacheck_2.13\1.14.0\scalacheck_2.13-1.14.0.jar;C:\Users\yuvals\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.8273482 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

@@ -1,0 +1,7 @@
+[debug] Packaging C:\Users\yuvals\Desktop\Study\Scala\quickcheck\target\scala-2.13\progfun2-quickcheck_2.13-0.1.0-SNAPSHOT-sources.jar ...
+[debug] Input file mappings:
+[debug] 	quickcheck\Heap.scala
+[debug] 	  C:\Users\yuvals\Desktop\Study\Scala\quickcheck\src\main\scala\quickcheck\Heap.scala
+[debug] 	quickcheck\QuickCheck.scala
+[debug] 	  C:\Users\yuvals\Desktop\Study\Scala\quickcheck\src\main\scala\quickcheck\QuickCheck.scala
+[debug] Done packaging.
