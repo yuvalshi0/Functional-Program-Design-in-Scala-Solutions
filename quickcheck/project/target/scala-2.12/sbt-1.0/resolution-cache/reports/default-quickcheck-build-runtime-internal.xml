@@ -9,135 +9,135 @@
 		extra-sbtVersion="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20201116091502"/>
+		date="20201126215232"/>
 	<dependencies>
 		<module organisation="ch.epfl.scala" name="sbt-scalafix">
-			<revision name="0.9.7" status="release" pubdate="20190912154259" resolver="public" artresolver="public" homepage="https://github.com/scalacenter/sbt-scalafix" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+			<revision name="0.9.7" status="release" pubdate="20190912154259" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalacenter/sbt-scalafix" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2979" time="271" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\ch.epfl.scala\sbt-scalafix\ivy-0.9.7.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\ch.epfl.scala\sbt-scalafix\ivy-0.9.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/scala/sbt-scalafix_2.12_1.0/0.9.7/sbt-scalafix-0.9.7.pom"/>
+				<metadata-artifact status="no" details="" size="3716" time="0" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\ch.epfl.scala\sbt-scalafix\ivy-0.9.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/scala/sbt-scalafix_2.12_1.0/0.9.7/sbt-scalafix-0.9.7.pom"/>
 				<caller organisation="default" name="quickcheck-build" conf="compile, runtime-internal, runtime, optional" rev="0.9.7" rev-constraint-default="0.9.7" rev-constraint-dynamic="0.9.7" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-scalafix" type="jar" ext="jar" status="successful" details="" size="157123" time="665" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\ch.epfl.scala\sbt-scalafix\jars\sbt-scalafix-0.9.7.jar">
+					<artifact name="sbt-scalafix" type="jar" ext="jar" status="no" details="" size="157123" time="0" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\ch.epfl.scala\sbt-scalafix\jars\sbt-scalafix-0.9.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/scala/sbt-scalafix_2.12_1.0/0.9.7/sbt-scalafix-0.9.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.geirsson" name="coursier-small_2.12">
-			<revision name="1.3.3" status="release" pubdate="20190117132527" resolver="public" artresolver="public" homepage="https://github.com/olafurpg/coursier-small" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+			<revision name="1.3.3" status="release" pubdate="20190117132527" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/olafurpg/coursier-small" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1886" time="272" location="C:\Users\yuvals\.ivy2\cache\com.geirsson\coursier-small_2.12\ivy-1.3.3.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.geirsson\coursier-small_2.12\ivy-1.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.3/coursier-small_2.12-1.3.3.pom"/>
+				<metadata-artifact status="no" details="" size="2814" time="0" location="C:\Users\yuvals\.ivy2\cache\com.geirsson\coursier-small_2.12\ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.3/coursier-small_2.12-1.3.3.pom"/>
 				<caller organisation="ch.epfl.scala" name="sbt-scalafix" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.9.7"/>
 				<artifacts>
-					<artifact name="coursier-small_2.12" type="jar" ext="jar" status="successful" details="" size="1753962" time="912" location="C:\Users\yuvals\.ivy2\cache\com.geirsson\coursier-small_2.12\jars\coursier-small_2.12-1.3.3.jar">
+					<artifact name="coursier-small_2.12" type="jar" ext="jar" status="no" details="" size="1753962" time="0" location="C:\Users\yuvals\.ivy2\cache\com.geirsson\coursier-small_2.12\jars\coursier-small_2.12-1.3.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.3/coursier-small_2.12-1.3.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="ch.epfl.scala" name="scalafix-interfaces">
-			<revision name="0.9.7" status="release" pubdate="20190912145200" resolver="public" artresolver="public" homepage="https://github.com/scalacenter/scalafix" extra-info.apiURL="https://scalacenter.github.io/scalafix/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+			<revision name="0.9.7" status="release" pubdate="20190912145200" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalacenter/scalafix" extra-info.apiURL="https://scalacenter.github.io/scalafix/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2952" time="276" location="C:\Users\yuvals\.ivy2\cache\ch.epfl.scala\scalafix-interfaces\ivy-0.9.7.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\ch.epfl.scala\scalafix-interfaces\ivy-0.9.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/scalafix-interfaces-0.9.7.pom"/>
+				<metadata-artifact status="no" details="" size="2959" time="0" location="C:\Users\yuvals\.ivy2\cache\ch.epfl.scala\scalafix-interfaces\ivy-0.9.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/scalafix-interfaces-0.9.7.pom"/>
 				<caller organisation="ch.epfl.scala" name="sbt-scalafix" conf="default, compile, runtime, master" rev="0.9.7" rev-constraint-default="0.9.7" rev-constraint-dynamic="0.9.7" callerrev="0.9.7"/>
 				<artifacts>
-					<artifact name="scalafix-interfaces" type="jar" ext="jar" status="successful" details="" size="8319" time="820" location="C:\Users\yuvals\.ivy2\cache\ch.epfl.scala\scalafix-interfaces\jars\scalafix-interfaces-0.9.7.jar">
+					<artifact name="scalafix-interfaces" type="jar" ext="jar" status="no" details="" size="8319" time="0" location="C:\Users\yuvals\.ivy2\cache\ch.epfl.scala\scalafix-interfaces\jars\scalafix-interfaces-0.9.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/scalafix-interfaces-0.9.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jgit" name="org.eclipse.jgit">
-			<revision name="4.9.0.201710071750-r" status="release" pubdate="20171008033910" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+			<revision name="4.9.0.201710071750-r" status="release" pubdate="20171008033910" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
 				<license name="Eclipse Distribution License (New BSD License)"/>
-				<metadata-artifact status="successful" details="" size="9361" time="275" location="C:\Users\yuvals\.ivy2\cache\org.eclipse.jgit\org.eclipse.jgit\ivy-4.9.0.201710071750-r.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.eclipse.jgit\org.eclipse.jgit\ivy-4.9.0.201710071750-r.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r.pom"/>
+				<metadata-artifact status="no" details="" size="8979" time="0" location="C:\Users\yuvals\.ivy2\cache\org.eclipse.jgit\org.eclipse.jgit\ivy-4.9.0.201710071750-r.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r.pom"/>
 				<caller organisation="ch.epfl.scala" name="sbt-scalafix" conf="default, compile, runtime, master" rev="4.9.0.201710071750-r" rev-constraint-default="4.9.0.201710071750-r" rev-constraint-dynamic="4.9.0.201710071750-r" callerrev="0.9.7"/>
 				<artifacts>
-					<artifact name="org.eclipse.jgit" type="jar" ext="jar" status="successful" details="" size="2609327" time="900" location="C:\Users\yuvals\.ivy2\cache\org.eclipse.jgit\org.eclipse.jgit\jars\org.eclipse.jgit-4.9.0.201710071750-r.jar">
+					<artifact name="org.eclipse.jgit" type="jar" ext="jar" status="no" details="" size="2609327" time="0" location="C:\Users\yuvals\.ivy2\cache\org.eclipse.jgit\org.eclipse.jgit\jars\org.eclipse.jgit-4.9.0.201710071750-r.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
-			<revision name="4.3.6" status="release" pubdate="20141102154602" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+			<revision name="4.3.6" status="release" pubdate="20141102154602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5209" time="275" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.3.6.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.3.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom"/>
+				<metadata-artifact status="no" details="" size="9809" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom"/>
 				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="4.3.6" rev-constraint-default="4.3.6" rev-constraint-dynamic="4.3.6" callerrev="4.9.0.201710071750-r"/>
 				<artifacts>
-					<artifact name="httpclient" type="jar" ext="jar" status="successful" details="" size="592008" time="524" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar">
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="592008" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
-			<revision name="4.3.3" status="release" pubdate="20141018145118" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+			<revision name="4.3.3" status="release" pubdate="20141018145118" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4597" time="273" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.3.3.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom"/>
+				<metadata-artifact status="no" details="" size="7682" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.3.3" rev-constraint-default="4.3.3" rev-constraint-dynamic="4.3.3" callerrev="4.3.6"/>
 				<artifacts>
-					<artifact name="httpcore" type="jar" ext="jar" status="successful" details="" size="282793" time="506" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar">
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="282793" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.1.3" status="release" pubdate="20130516230523" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+			<revision name="1.1.3" status="release" pubdate="20130516230523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="18353" time="271" location="C:\Users\yuvals\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.3.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<metadata-artifact status="no" details="" size="10440" time="0" location="C:\Users\yuvals\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="4.3.6"/>
 				<artifacts>
-					<artifact name="commons-logging" type="jar" ext="jar" status="successful" details="" size="62050" time="414" location="C:\Users\yuvals\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar">
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="62050" time="0" location="C:\Users\yuvals\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.googlecode.javaewah" name="JavaEWAH">
-			<revision name="1.1.6" status="release" pubdate="20160427054037" resolver="public" artresolver="public" homepage="https://github.com/lemire/javaewah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+			<revision name="1.1.6" status="release" pubdate="20160427054037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/javaewah" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6028" time="271" location="C:\Users\yuvals\.ivy2\cache\com.googlecode.javaewah\JavaEWAH\ivy-1.1.6.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.googlecode.javaewah\JavaEWAH\ivy-1.1.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom"/>
+				<metadata-artifact status="no" details="" size="4354" time="0" location="C:\Users\yuvals\.ivy2\cache\com.googlecode.javaewah\JavaEWAH\ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom"/>
 				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="4.9.0.201710071750-r"/>
 				<artifacts>
-					<artifact name="JavaEWAH" type="bundle" ext="jar" status="successful" details="" size="165868" time="440" location="C:\Users\yuvals\.ivy2\cache\com.googlecode.javaewah\JavaEWAH\bundles\JavaEWAH-1.1.6.jar">
+					<artifact name="JavaEWAH" type="bundle" ext="jar" status="no" details="" size="165868" time="0" location="C:\Users\yuvals\.ivy2\cache\com.googlecode.javaewah\JavaEWAH\bundles\JavaEWAH-1.1.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.get-coursier" name="sbt-coursier">
-			<revision name="2.0.0-RC3-5" status="release" pubdate="20190912111805" resolver="public" artresolver="public" homepage="https://github.com/coursier/sbt-coursier" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+			<revision name="2.0.0-RC3-5" status="release" pubdate="20190912111805" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/coursier/sbt-coursier" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
 				<license name="Apache 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="2470" time="276" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier\ivy-2.0.0-RC3-5.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier\ivy-2.0.0-RC3-5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.12_1.0/2.0.0-RC3-5/sbt-coursier-2.0.0-RC3-5.pom"/>
+				<metadata-artifact status="no" details="" size="3488" time="0" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier\ivy-2.0.0-RC3-5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.12_1.0/2.0.0-RC3-5/sbt-coursier-2.0.0-RC3-5.pom"/>
 				<caller organisation="default" name="quickcheck-build" conf="compile, runtime-internal, runtime, optional" rev="2.0.0-RC3-5" rev-constraint-default="2.0.0-RC3-5" rev-constraint-dynamic="2.0.0-RC3-5" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-coursier" type="jar" ext="jar" status="successful" details="" size="87122" time="665" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier\jars\sbt-coursier-2.0.0-RC3-5.jar">
+					<artifact name="sbt-coursier" type="jar" ext="jar" status="no" details="" size="87122" time="0" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier\jars\sbt-coursier-2.0.0-RC3-5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.12_1.0/2.0.0-RC3-5/sbt-coursier-2.0.0-RC3-5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.get-coursier" name="sbt-coursier-shared">
-			<revision name="2.0.0-RC3-5" status="release" pubdate="20190912111804" resolver="public" artresolver="public" homepage="https://github.com/coursier/sbt-coursier" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+			<revision name="2.0.0-RC3-5" status="release" pubdate="20190912111804" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/coursier/sbt-coursier" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
 				<license name="Apache 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="2414" time="271" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier-shared\ivy-2.0.0-RC3-5.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier-shared\ivy-2.0.0-RC3-5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier-shared_2.12_1.0/2.0.0-RC3-5/sbt-coursier-shared-2.0.0-RC3-5.pom"/>
+				<metadata-artifact status="no" details="" size="3304" time="0" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier-shared\ivy-2.0.0-RC3-5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier-shared_2.12_1.0/2.0.0-RC3-5/sbt-coursier-shared-2.0.0-RC3-5.pom"/>
 				<caller organisation="io.get-coursier" name="sbt-coursier" conf="default, compile, runtime, master" rev="2.0.0-RC3-5" rev-constraint-default="2.0.0-RC3-5" rev-constraint-dynamic="2.0.0-RC3-5" callerrev="2.0.0-RC3-5" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-coursier-shared" type="jar" ext="jar" status="successful" details="" size="90600" time="636" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier-shared\jars\sbt-coursier-shared-2.0.0-RC3-5.jar">
+					<artifact name="sbt-coursier-shared" type="jar" ext="jar" status="no" details="" size="90600" time="0" location="C:\Users\yuvals\.ivy2\cache\scala_2.12\sbt_1.0\io.get-coursier\sbt-coursier-shared\jars\sbt-coursier-shared-2.0.0-RC3-5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier-shared_2.12_1.0/2.0.0-RC3-5/sbt-coursier-shared-2.0.0-RC3-5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.get-coursier" name="lm-coursier_2.12">
-			<revision name="2.0.0-RC3-5" status="release" pubdate="20190912111805" resolver="public" artresolver="public" homepage="https://github.com/coursier/sbt-coursier" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+			<revision name="2.0.0-RC3-5" status="release" pubdate="20190912111805" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/coursier/sbt-coursier" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
 				<license name="Apache 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="2235" time="272" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\lm-coursier_2.12\ivy-2.0.0-RC3-5.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\lm-coursier_2.12\ivy-2.0.0-RC3-5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/lm-coursier_2.12/2.0.0-RC3-5/lm-coursier_2.12-2.0.0-RC3-5.pom"/>
+				<metadata-artifact status="no" details="" size="3139" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\lm-coursier_2.12\ivy-2.0.0-RC3-5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/lm-coursier_2.12/2.0.0-RC3-5/lm-coursier_2.12-2.0.0-RC3-5.pom"/>
 				<caller organisation="io.get-coursier" name="sbt-coursier-shared" conf="compile, runtime" rev="2.0.0-RC3-5" rev-constraint-default="2.0.0-RC3-5" rev-constraint-dynamic="2.0.0-RC3-5" callerrev="2.0.0-RC3-5"/>
 				<artifacts>
-					<artifact name="lm-coursier_2.12" type="jar" ext="jar" status="successful" details="" size="291378" time="636" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\lm-coursier_2.12\jars\lm-coursier_2.12-2.0.0-RC3-5.jar">
+					<artifact name="lm-coursier_2.12" type="jar" ext="jar" status="no" details="" size="291378" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\lm-coursier_2.12\jars\lm-coursier_2.12-2.0.0-RC3-5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/lm-coursier_2.12/2.0.0-RC3-5/lm-coursier_2.12-2.0.0-RC3-5.jar"/>
 					</artifact>
 				</artifacts>
@@ -180,12 +180,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="util-cache_2.12">
-			<revision name="1.2.2" status="release" pubdate="20180829222412" resolver="public" artresolver="public" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="55">
+			<revision name="1.2.2" status="release" pubdate="20180829222412" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="55">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="3919" time="274" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-cache_2.12\ivy-1.2.2.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-cache_2.12\ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.2/util-cache_2.12-1.2.2.pom"/>
+				<metadata-artifact status="no" details="" size="3412" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-cache_2.12\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.2/util-cache_2.12-1.2.2.pom"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
 				<artifacts>
-					<artifact name="util-cache_2.12" type="jar" ext="jar" status="successful" details="" size="198602" time="464" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-cache_2.12\jars\util-cache_2.12-1.2.2.jar">
+					<artifact name="util-cache_2.12" type="jar" ext="jar" status="no" details="" size="198602" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-cache_2.12\jars\util-cache_2.12-1.2.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.2/util-cache_2.12-1.2.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -204,98 +204,98 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="util-position_2.12">
-			<revision name="1.2.2" status="release" pubdate="20180829222401" resolver="public" artresolver="public" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="54">
+			<revision name="1.2.2" status="release" pubdate="20180829222401" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="54">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="3382" time="274" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-position_2.12\ivy-1.2.2.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-position_2.12\ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.2/util-position_2.12-1.2.2.pom"/>
+				<metadata-artifact status="no" details="" size="2965" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-position_2.12\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.2/util-position_2.12-1.2.2.pom"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
 				<artifacts>
-					<artifact name="util-position_2.12" type="jar" ext="jar" status="successful" details="" size="26680" time="475" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-position_2.12\jars\util-position_2.12-1.2.2.jar">
+					<artifact name="util-position_2.12" type="jar" ext="jar" status="no" details="" size="26680" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-position_2.12\jars\util-position_2.12-1.2.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.2/util-position_2.12-1.2.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="util-logging_2.12">
-			<revision name="1.2.2" status="release" pubdate="20180829222414" resolver="public" artresolver="public" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="45">
+			<revision name="1.2.2" status="release" pubdate="20180829222414" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="45">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="5001" time="273" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-logging_2.12\ivy-1.2.2.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-logging_2.12\ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.2/util-logging_2.12-1.2.2.pom"/>
+				<metadata-artifact status="no" details="" size="4259" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-logging_2.12\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.2/util-logging_2.12-1.2.2.pom"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
 				<artifacts>
-					<artifact name="util-logging_2.12" type="jar" ext="jar" status="successful" details="" size="247580" time="507" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-logging_2.12\jars\util-logging_2.12-1.2.2.jar">
+					<artifact name="util-logging_2.12" type="jar" ext="jar" status="no" details="" size="247580" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-logging_2.12\jars\util-logging_2.12-1.2.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.2/util-logging_2.12-1.2.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-core">
-			<revision name="2.8.1" status="release" pubdate="20170227021128" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+			<revision name="2.8.1" status="release" pubdate="20170227021128" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="19378" time="272" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.8.1.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom"/>
+				<metadata-artifact status="no" details="" size="34136" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.2.2"/>
 				<artifacts>
-					<artifact name="log4j-core" type="jar" ext="jar" status="successful" details="" size="1402925" time="885" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.8.1.jar">
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1402925" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.8.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.lmax" name="disruptor">
-			<revision name="3.3.6" status="release" pubdate="20161003234757" resolver="public" artresolver="public" homepage="http://lmax-exchange.github.com/disruptor" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+			<revision name="3.3.6" status="release" pubdate="20161003234757" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://lmax-exchange.github.com/disruptor" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1652" time="270" location="C:\Users\yuvals\.ivy2\cache\com.lmax\disruptor\ivy-3.3.6.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.lmax\disruptor\ivy-3.3.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.pom"/>
+				<metadata-artifact status="no" details="" size="2937" time="0" location="C:\Users\yuvals\.ivy2\cache\com.lmax\disruptor\ivy-3.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.pom"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="3.3.6" rev-constraint-default="3.3.6" rev-constraint-dynamic="3.3.6" callerrev="1.2.2"/>
 				<artifacts>
-					<artifact name="disruptor" type="jar" ext="jar" status="successful" details="" size="84123" time="753" location="C:\Users\yuvals\.ivy2\cache\com.lmax\disruptor\jars\disruptor-3.3.6.jar">
+					<artifact name="disruptor" type="jar" ext="jar" status="no" details="" size="84123" time="0" location="C:\Users\yuvals\.ivy2\cache\com.lmax\disruptor\jars\disruptor-3.3.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-api">
-			<revision name="2.8.1" status="release" pubdate="20170227015408" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+			<revision name="2.8.1" status="release" pubdate="20170227015408" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="8746" time="273" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.8.1.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom"/>
+				<metadata-artifact status="no" details="" size="28443" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.2.2"/>
 				<artifacts>
-					<artifact name="log4j-api" type="jar" ext="jar" status="successful" details="" size="228859" time="488" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.8.1.jar">
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="228859" time="0" location="C:\Users\yuvals\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.8.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="jline" name="jline">
-			<revision name="2.14.4" status="release" pubdate="20170606093737" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+			<revision name="2.14.4" status="release" pubdate="20170606093737" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="19892" time="273" location="C:\Users\yuvals\.ivy2\cache\jline\jline\ivy-2.14.4.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\jline\jline\ivy-2.14.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.pom"/>
+				<metadata-artifact status="no" details="" size="5238" time="0" location="C:\Users\yuvals\.ivy2\cache\jline\jline\ivy-2.14.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.pom"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.14.4" rev-constraint-default="2.14.4" rev-constraint-dynamic="2.14.4" callerrev="1.2.2"/>
 				<artifacts>
-					<artifact name="jline" type="jar" ext="jar" status="successful" details="" size="268549" time="545" location="C:\Users\yuvals\.ivy2\cache\jline\jline\jars\jline-2.14.4.jar">
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="268549" time="0" location="C:\Users\yuvals\.ivy2\cache\jline\jline\jars\jline-2.14.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="util-interface">
-			<revision name="1.2.2" status="release" pubdate="20180829222432" resolver="public" artresolver="public" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+			<revision name="1.2.2" status="release" pubdate="20180829222432" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="2775" time="289" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-interface\ivy-1.2.2.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-interface\ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.pom"/>
+				<metadata-artifact status="no" details="" size="2502" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-interface\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.pom"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.2"/>
 				<artifacts>
-					<artifact name="util-interface" type="jar" ext="jar" status="successful" details="" size="2572" time="548" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-interface\jars\util-interface-1.2.2.jar">
+					<artifact name="util-interface" type="jar" ext="jar" status="no" details="" size="2572" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\util-interface\jars\util-interface-1.2.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="io_2.12">
-			<revision name="1.2.1" status="release" pubdate="20180806225954" resolver="public" artresolver="public" homepage="https://github.com/sbt/io" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, master(compile)" position="41">
+			<revision name="1.2.1" status="release" pubdate="20180806225954" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/io" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, master(compile)" position="41">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="3879" time="270" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\io_2.12\ivy-1.2.1.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\io_2.12\ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="3481" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\io_2.12\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1.pom"/>
 				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.2"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.2"/>
 				<artifacts>
-					<artifact name="io_2.12" type="jar" ext="jar" status="successful" details="" size="312186" time="804" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\io_2.12\jars\io_2.12-1.2.1.jar">
+					<artifact name="io_2.12" type="jar" ext="jar" status="no" details="" size="312186" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\io_2.12\jars\io_2.12-1.2.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -494,7 +494,7 @@
 				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
 				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.2"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="successful" details="" size="204313" time="823" location="C:\Users\yuvals\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.0.4.jar">
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="no" details="" size="204313" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.0.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"/>
 					</artifact>
 				</artifacts>
@@ -513,12 +513,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="launcher-interface">
-			<revision name="1.0.0" status="release" pubdate="20150817224630" resolver="public" artresolver="public" homepage="http://scala-sbt.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="30">
+			<revision name="1.0.0" status="release" pubdate="20150817224630" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-sbt.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="30">
 				<license name="BSD" url="http://opensource.org/licenses/BSD-2-Clause"/>
-				<metadata-artifact status="successful" details="" size="1402" time="272" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\launcher-interface\ivy-1.0.0.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\launcher-interface\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2534" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\launcher-interface\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.2.4"/>
 				<artifacts>
-					<artifact name="launcher-interface" type="jar" ext="jar" status="successful" details="" size="10000" time="664" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\launcher-interface\jars\launcher-interface-1.0.0.jar">
+					<artifact name="launcher-interface" type="jar" ext="jar" status="no" details="" size="10000" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scala-sbt\launcher-interface\jars\launcher-interface-1.0.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -554,60 +554,60 @@
 			</revision>
 		</module>
 		<module organisation="io.get-coursier" name="coursier_2.12">
-			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005625" resolver="public" artresolver="public" homepage="https://github.com/coursier/coursier" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005625" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/coursier/coursier" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2880" time="274" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier_2.12\ivy-2.0.0-RC3-4.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier_2.12\ivy-2.0.0-RC3-4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/2.0.0-RC3-4/coursier_2.12-2.0.0-RC3-4.pom"/>
+				<metadata-artifact status="no" details="" size="3592" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier_2.12\ivy-2.0.0-RC3-4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/2.0.0-RC3-4/coursier_2.12-2.0.0-RC3-4.pom"/>
 				<caller organisation="io.get-coursier" name="lm-coursier_2.12" conf="compile, runtime" rev="2.0.0-RC3-4" rev-constraint-default="2.0.0-RC3-4" rev-constraint-dynamic="2.0.0-RC3-4" callerrev="2.0.0-RC3-5"/>
 				<artifacts>
-					<artifact name="coursier_2.12" type="jar" ext="jar" status="successful" details="" size="480441" time="634" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier_2.12\jars\coursier_2.12-2.0.0-RC3-4.jar">
+					<artifact name="coursier_2.12" type="jar" ext="jar" status="no" details="" size="480441" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier_2.12\jars\coursier_2.12-2.0.0-RC3-4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/2.0.0-RC3-4/coursier_2.12-2.0.0-RC3-4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.github.alexarchambault" name="argonaut-shapeless_6.2_2.12">
-			<revision name="1.2.0-M11" status="release" pubdate="20190424131838" resolver="public" artresolver="public" homepage="https://github.com/alexarchambault/argonaut-shapeless" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+			<revision name="1.2.0-M11" status="release" pubdate="20190424131838" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/alexarchambault/argonaut-shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
 				<license name="BSD-3-Clause" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="2128" time="275" location="C:\Users\yuvals\.ivy2\cache\com.github.alexarchambault\argonaut-shapeless_6.2_2.12\ivy-1.2.0-M11.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.github.alexarchambault\argonaut-shapeless_6.2_2.12\ivy-1.2.0-M11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.pom"/>
+				<metadata-artifact status="no" details="" size="3054" time="0" location="C:\Users\yuvals\.ivy2\cache\com.github.alexarchambault\argonaut-shapeless_6.2_2.12\ivy-1.2.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.pom"/>
 				<caller organisation="io.get-coursier" name="coursier_2.12" conf="compile, runtime" rev="1.2.0-M11" rev-constraint-default="1.2.0-M11" rev-constraint-dynamic="1.2.0-M11" callerrev="2.0.0-RC3-4"/>
 				<artifacts>
-					<artifact name="argonaut-shapeless_6.2_2.12" type="jar" ext="jar" status="successful" details="" size="91713" time="693" location="C:\Users\yuvals\.ivy2\cache\com.github.alexarchambault\argonaut-shapeless_6.2_2.12\jars\argonaut-shapeless_6.2_2.12-1.2.0-M11.jar">
+					<artifact name="argonaut-shapeless_6.2_2.12" type="jar" ext="jar" status="no" details="" size="91713" time="0" location="C:\Users\yuvals\.ivy2\cache\com.github.alexarchambault\argonaut-shapeless_6.2_2.12\jars\argonaut-shapeless_6.2_2.12-1.2.0-M11.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.argonaut" name="argonaut_2.12">
-			<revision name="6.2.3" status="release" pubdate="20190321031532" resolver="public" artresolver="public" homepage="http://argonaut.io" extra-info.apiURL="http://argonaut.io/scaladocs/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+			<revision name="6.2.3" status="release" pubdate="20190321031532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://argonaut.io" extra-info.apiURL="http://argonaut.io/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
 				<license name="BSD-3-Clause" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="2417" time="272" location="C:\Users\yuvals\.ivy2\cache\io.argonaut\argonaut_2.12\ivy-6.2.3.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\io.argonaut\argonaut_2.12\ivy-6.2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.pom"/>
+				<metadata-artifact status="no" details="" size="3186" time="0" location="C:\Users\yuvals\.ivy2\cache\io.argonaut\argonaut_2.12\ivy-6.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.pom"/>
 				<caller organisation="com.github.alexarchambault" name="argonaut-shapeless_6.2_2.12" conf="compile, runtime" rev="6.2.3" rev-constraint-default="6.2.3" rev-constraint-dynamic="6.2.3" callerrev="1.2.0-M11"/>
 				<artifacts>
-					<artifact name="argonaut_2.12" type="jar" ext="jar" status="successful" details="" size="795086" time="816" location="C:\Users\yuvals\.ivy2\cache\io.argonaut\argonaut_2.12\jars\argonaut_2.12-6.2.3.jar">
+					<artifact name="argonaut_2.12" type="jar" ext="jar" status="no" details="" size="795086" time="0" location="C:\Users\yuvals\.ivy2\cache\io.argonaut\argonaut_2.12\jars\argonaut_2.12-6.2.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.get-coursier" name="coursier-cache_2.12">
-			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005600" resolver="public" artresolver="public" homepage="https://github.com/coursier/coursier" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/coursier/coursier" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2925" time="291" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-cache_2.12\ivy-2.0.0-RC3-4.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-cache_2.12\ivy-2.0.0-RC3-4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/2.0.0-RC3-4/coursier-cache_2.12-2.0.0-RC3-4.pom"/>
+				<metadata-artifact status="no" details="" size="3504" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-cache_2.12\ivy-2.0.0-RC3-4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/2.0.0-RC3-4/coursier-cache_2.12-2.0.0-RC3-4.pom"/>
 				<caller organisation="io.get-coursier" name="coursier_2.12" conf="compile, runtime" rev="2.0.0-RC3-4" rev-constraint-default="2.0.0-RC3-4" rev-constraint-dynamic="2.0.0-RC3-4" callerrev="2.0.0-RC3-4"/>
 				<artifacts>
-					<artifact name="coursier-cache_2.12" type="jar" ext="jar" status="successful" details="" size="854324" time="561" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-cache_2.12\jars\coursier-cache_2.12-2.0.0-RC3-4.jar">
+					<artifact name="coursier-cache_2.12" type="jar" ext="jar" status="no" details="" size="854324" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-cache_2.12\jars\coursier-cache_2.12-2.0.0-RC3-4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/2.0.0-RC3-4/coursier-cache_2.12-2.0.0-RC3-4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.get-coursier" name="coursier-core_2.12">
-			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005448" resolver="public" artresolver="public" homepage="https://github.com/coursier/coursier" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005448" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/coursier/coursier" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2249" time="318" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-core_2.12\ivy-2.0.0-RC3-4.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-core_2.12\ivy-2.0.0-RC3-4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/2.0.0-RC3-4/coursier-core_2.12-2.0.0-RC3-4.pom"/>
+				<metadata-artifact status="no" details="" size="3138" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-core_2.12\ivy-2.0.0-RC3-4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/2.0.0-RC3-4/coursier-core_2.12-2.0.0-RC3-4.pom"/>
 				<caller organisation="io.get-coursier" name="coursier_2.12" conf="compile, runtime" rev="2.0.0-RC3-4" rev-constraint-default="2.0.0-RC3-4" rev-constraint-dynamic="2.0.0-RC3-4" callerrev="2.0.0-RC3-4"/>
 				<artifacts>
-					<artifact name="coursier-core_2.12" type="jar" ext="jar" status="successful" details="" size="1170835" time="643" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-core_2.12\jars\coursier-core_2.12-2.0.0-RC3-4.jar">
+					<artifact name="coursier-core_2.12" type="jar" ext="jar" status="no" details="" size="1170835" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-core_2.12\jars\coursier-core_2.12-2.0.0-RC3-4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/2.0.0-RC3-4/coursier-core_2.12-2.0.0-RC3-4.jar"/>
 					</artifact>
 				</artifacts>
@@ -643,77 +643,77 @@
 			</revision>
 		</module>
 		<module organisation="io.get-coursier" name="coursier-util_2.12">
-			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005458" resolver="public" artresolver="public" homepage="https://github.com/coursier/coursier" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+			<revision name="2.0.0-RC3-4" status="release" pubdate="20190911005458" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/coursier/coursier" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1671" time="278" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-util_2.12\ivy-2.0.0-RC3-4.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-util_2.12\ivy-2.0.0-RC3-4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.12/2.0.0-RC3-4/coursier-util_2.12-2.0.0-RC3-4.pom"/>
+				<metadata-artifact status="no" details="" size="2705" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-util_2.12\ivy-2.0.0-RC3-4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.12/2.0.0-RC3-4/coursier-util_2.12-2.0.0-RC3-4.pom"/>
 				<caller organisation="io.get-coursier" name="coursier-core_2.12" conf="compile, runtime" rev="2.0.0-RC3-4" rev-constraint-default="2.0.0-RC3-4" rev-constraint-dynamic="2.0.0-RC3-4" callerrev="2.0.0-RC3-4"/>
 				<caller organisation="io.get-coursier" name="coursier-cache_2.12" conf="compile, runtime" rev="2.0.0-RC3-4" rev-constraint-default="2.0.0-RC3-4" rev-constraint-dynamic="2.0.0-RC3-4" callerrev="2.0.0-RC3-4"/>
 				<artifacts>
-					<artifact name="coursier-util_2.12" type="jar" ext="jar" status="successful" details="" size="477910" time="817" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-util_2.12\jars\coursier-util_2.12-2.0.0-RC3-4.jar">
+					<artifact name="coursier-util_2.12" type="jar" ext="jar" status="no" details="" size="477910" time="0" location="C:\Users\yuvals\.ivy2\cache\io.get-coursier\coursier-util_2.12\jars\coursier-util_2.12-2.0.0-RC3-4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/coursier-util_2.12/2.0.0-RC3-4/coursier-util_2.12-2.0.0-RC3-4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-json_2.12">
-			<revision name="2.6.9" status="release" pubdate="20180301212515" resolver="public" artresolver="public" homepage="https://github.com/playframework/play-json" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+			<revision name="2.6.9" status="release" pubdate="20180301212515" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="4478" time="272" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-json_2.12\ivy-2.6.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-json_2.12\ivy-2.6.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9.pom"/>
+				<metadata-artifact status="no" details="" size="4900" time="0" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-json_2.12\ivy-2.6.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9.pom"/>
 				<caller organisation="default" name="quickcheck-build" conf="compile, runtime-internal, runtime, optional" rev="2.6.9" rev-constraint-default="2.6.9" rev-constraint-dynamic="2.6.9" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-json_2.12" type="jar" ext="jar" status="successful" details="" size="659490" time="668" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-json_2.12\jars\play-json_2.12-2.6.9.jar">
+					<artifact name="play-json_2.12" type="jar" ext="jar" status="no" details="" size="659490" time="0" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-json_2.12\jars\play-json_2.12-2.6.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
-			<revision name="2.8.9" status="release" pubdate="20170612080823" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+			<revision name="2.8.9" status="release" pubdate="20170612080823" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4533" time="275" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.8.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="21341" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jsr310" type="bundle" ext="jar" status="successful" details="" size="90059" time="638" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.8.9.jar">
+					<artifact name="jackson-datatype-jsr310" type="bundle" ext="jar" status="no" details="" size="90059" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.8.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
-			<revision name="2.8.9" status="release" pubdate="20170612080811" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+			<revision name="2.8.9" status="release" pubdate="20170612080811" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2251" time="278" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.8.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="21045" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jdk8" type="bundle" ext="jar" status="successful" details="" size="33877" time="593" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.8.9.jar">
+					<artifact name="jackson-datatype-jdk8" type="bundle" ext="jar" status="no" details="" size="33877" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.8.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
-			<revision name="2.8.9" status="release" pubdate="20170612035351" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="2.8.9" status="release" pubdate="20170612035351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5426" time="271" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="8225" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="bundle" ext="jar" status="successful" details="" size="1242477" time="741" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.8.9.jar">
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1242477" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.8.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
-			<revision name="2.8.9" status="release" pubdate="20170612033719" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+			<revision name="2.8.9" status="release" pubdate="20170612033719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1848" time="277" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="2.8.9"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="2.8.9"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="bundle" ext="jar" status="successful" details="" size="55784" time="598" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.8.9.jar">
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="55784" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.8.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar"/>
 					</artifact>
 				</artifacts>
@@ -727,89 +727,89 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
-			<revision name="2.8.9" status="release" pubdate="20170612034341" resolver="public" artresolver="public" homepage="https://github.com/FasterXML/jackson-core" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+			<revision name="2.8.9" status="release" pubdate="20170612034341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5415" time="272" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.8.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="7486" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
 				<artifacts>
-					<artifact name="jackson-core" type="bundle" ext="jar" status="successful" details="" size="282633" time="601" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.8.9.jar">
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="282633" time="0" location="C:\Users\yuvals\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.8.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="joda-time" name="joda-time">
-			<revision name="2.9.9" status="release" pubdate="20170323153313" resolver="public" artresolver="public" homepage="http://www.joda.org/joda-time/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+			<revision name="2.9.9" status="release" pubdate="20170323153313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="34627" time="273" location="C:\Users\yuvals\.ivy2\cache\joda-time\joda-time\ivy-2.9.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\joda-time\joda-time\ivy-2.9.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<metadata-artifact status="no" details="" size="6719" time="0" location="C:\Users\yuvals\.ivy2\cache\joda-time\joda-time\ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="2.6.9"/>
 				<artifacts>
-					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="634048" time="670" location="C:\Users\yuvals\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.9.jar">
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="634048" time="0" location="C:\Users\yuvals\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.chuusai" name="shapeless_2.12">
-			<revision name="2.3.3" status="release" pubdate="20171231165153" resolver="public" artresolver="public" homepage="https://github.com/milessabin/shapeless" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="2.3.3" status="release" pubdate="20171231165153" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2293" time="276" location="C:\Users\yuvals\.ivy2\cache\com.chuusai\shapeless_2.12\ivy-2.3.3.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.chuusai\shapeless_2.12\ivy-2.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom"/>
+				<metadata-artifact status="no" details="" size="3267" time="0" location="C:\Users\yuvals\.ivy2\cache\com.chuusai\shapeless_2.12\ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom"/>
 				<caller organisation="com.github.alexarchambault" name="argonaut-shapeless_6.2_2.12" conf="compile, runtime" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="1.2.0-M11"/>
 				<artifacts>
-					<artifact name="shapeless_2.12" type="bundle" ext="jar" status="successful" details="" size="3243337" time="959" location="C:\Users\yuvals\.ivy2\cache\com.chuusai\shapeless_2.12\bundles\shapeless_2.12-2.3.3.jar">
+					<artifact name="shapeless_2.12" type="bundle" ext="jar" status="no" details="" size="3243337" time="0" location="C:\Users\yuvals\.ivy2\cache\com.chuusai\shapeless_2.12\bundles\shapeless_2.12-2.3.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="macro-compat_2.12">
-			<revision name="1.1.1" status="release" pubdate="20161102104258" resolver="public" artresolver="public" homepage="https://github.com/milessabin/macro-compat" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+			<revision name="1.1.1" status="release" pubdate="20161102104258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1915" time="278" location="C:\Users\yuvals\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\yuvals\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.6.9"/>
 				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.3"/>
 				<artifacts>
-					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="successful" details="" size="3180" time="530" location="C:\Users\yuvals\.ivy2\cache\org.typelevel\macro-compat_2.12\jars\macro-compat_2.12-1.1.1.jar">
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="no" details="" size="3180" time="0" location="C:\Users\yuvals\.ivy2\cache\org.typelevel\macro-compat_2.12\jars\macro-compat_2.12-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-functional_2.12">
-			<revision name="2.6.9" status="release" pubdate="20180301212501" resolver="public" artresolver="public" homepage="https://github.com/playframework/play-json" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="2.6.9" status="release" pubdate="20180301212501" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1539" time="272" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-functional_2.12\ivy-2.6.9.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-functional_2.12\ivy-2.6.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9.pom"/>
+				<metadata-artifact status="no" details="" size="2718" time="0" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-functional_2.12\ivy-2.6.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.6.9" rev-constraint-default="2.6.9" rev-constraint-dynamic="2.6.9" callerrev="2.6.9"/>
 				<artifacts>
-					<artifact name="play-functional_2.12" type="jar" ext="jar" status="successful" details="" size="177939" time="596" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-functional_2.12\jars\play-functional_2.12-2.6.9.jar">
+					<artifact name="play-functional_2.12" type="jar" ext="jar" status="no" details="" size="177939" time="0" location="C:\Users\yuvals\.ivy2\cache\com.typesafe.play\play-functional_2.12\jars\play-functional_2.12-2.6.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalaj" name="scalaj-http_2.12">
-			<revision name="2.3.0" status="release" pubdate="20161104154803" resolver="public" artresolver="public" homepage="http://github.com/scalaj/scalaj-http" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+			<revision name="2.3.0" status="release" pubdate="20161104154803" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2034" time="274" location="C:\Users\yuvals\.ivy2\cache\org.scalaj\scalaj-http_2.12\ivy-2.3.0.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\org.scalaj\scalaj-http_2.12\ivy-2.3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.pom"/>
+				<metadata-artifact status="no" details="" size="3052" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scalaj\scalaj-http_2.12\ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.pom"/>
 				<caller organisation="default" name="quickcheck-build" conf="compile, runtime-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalaj-http_2.12" type="jar" ext="jar" status="successful" details="" size="108412" time="533" location="C:\Users\yuvals\.ivy2\cache\org.scalaj\scalaj-http_2.12\jars\scalaj-http_2.12-2.3.0.jar">
+					<artifact name="scalaj-http_2.12" type="jar" ext="jar" status="no" details="" size="108412" time="0" location="C:\Users\yuvals\.ivy2\cache\org.scalaj\scalaj-http_2.12\jars\scalaj-http_2.12-2.3.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.10" status="release" pubdate="20141106161535" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="1">
+			<revision name="1.10" status="release" pubdate="20141106161535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="1">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="11609" time="287" location="C:\Users\yuvals\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="true" original-local-location="C:\Users\yuvals\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<metadata-artifact status="no" details="" size="10706" time="0" location="C:\Users\yuvals\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
 				<caller organisation="default" name="quickcheck-build" conf="compile, runtime-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1.0-SNAPSHOT"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.3.6"/>
 				<artifacts>
-					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="284184" time="666" location="C:\Users\yuvals\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar">
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="C:\Users\yuvals\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
 					</artifact>
 				</artifacts>
@@ -822,7 +822,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20201116091450" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20201126215225" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="quickcheck-build" conf="compile, runtime-internal, runtime, optional" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
